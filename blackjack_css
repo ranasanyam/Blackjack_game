@@ -1,0 +1,54 @@
+.btn-primary{
+	background-color: blue;
+	color: white;
+}
+.btn-warning{
+	background-color:yellow;
+	color: black; 
+}
+.btn-danger{
+	background-color: red;
+	color: white;
+}
+.container{
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid black;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+	display: flex;
+	border: 1px solid black;
+	padding: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+	background: url(https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/13756/images/13756_3e140f5b90803297aa685ec07828b9ca.jpg);
+    color: #ffffff;
+}
+.flex-blackjack-row-1 div{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	flex: 1;
+	height: 350px;
+
+}
+.flex-blackjack-row-1 img{
+	width: 25%;
+	padding: 10px;
+
+}
+.flex-blackjack-row-2 button{
+	border: 1px solid black;
+}
+.flex-blackjack-row-2 div{
+	border: 1px solid black;
+	padding: 10px;
+}
+table,th ,td{
+	border: 1px solid black;
+	padding:5px;
+}
