@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackjack Game!</title>
+	<link rel="stylesheet" type="text/css" href="blackjack.css">
+	
+
+</head>
+<script type="text/javascript" src="blackjack.js"></script>
+<body>
+	<div class="container">
+		<h2> Blackjack</h2>
+		<h3><span id="blackjack-result">Let's play</span></h3>
+		<div class="flex-blackjack-row-1">
+			<div id="your-box">
+				<h2>You:<span id="your-blackjack-result">0</span></h2>
+			</div>
+			<div id="dealer-box">
+				<h2>Dealer:<span id="dealer-blackjack-result">0</span></h2>
+			</div>
+		</div>
+		<div class="flex-blackjack-row-2">
+			<div>
+				<button class="btn-primary" id="blackjack-hit-button" onclick="blackjackHit()">Hit</button>
+				<button id="blackjack-stand-button" class="btn-warning" onclick="dealerLogic()">Stand</button>
+				<button class="btn-danger" id="blackjack-deal-button" onclick="blackjackDeal()">Deal</button>
+			</div>
+		</div>
+		<div class="flex-blackjack-row-3">
+			<table>
+				<tr>
+					<th>Wins</th>
+					<th>Losses</th>
+					<th>Draws</th>
+				</tr>
+				<tr>
+					<td><span id="wins">0</span></td>
+					<td><span id="losses">0</span></td>
+					<td><span id="draws">0</span></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
